@@ -2,7 +2,7 @@ import { PORTFOLIO } from "../data/portfolio";
 import { Github, Linkedin, Mail, FileText } from "lucide-react";
 
 export function Hero() {
-  const { name, badge, title, tagline, github, linkedin, email, resume } =
+  const { name, title, tagline, github, linkedin, email, resume } =
     PORTFOLIO.personalInfo;
 
   return (
@@ -12,9 +12,6 @@ export function Hero() {
     >
       <div className="flex-1 space-y-6">
         <div className="space-y-3">
-          <span className="inline-block text-xs font-mono font-medium tracking-widest uppercase px-3 py-1.5 rounded-full border border-primary/30 text-primary bg-primary/5">
-            {badge}
-          </span>
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-foreground">
             {name}
           </h1>
@@ -25,6 +22,14 @@ export function Hero() {
         <p className="text-lg text-foreground/75 max-w-2xl leading-relaxed">
           {tagline}
         </p>
+        <div className="flex flex-wrap gap-x-5 gap-y-2 pt-1">
+          {["6+ ML Projects", "IEEE Publication", "27% CLIP Retrieval", "<100ms Latency Systems"].map((metric) => (
+            <span key={metric} className="flex items-center gap-1.5 text-sm font-mono text-primary">
+              <span className="w-1 h-1 rounded-full bg-primary inline-block" />
+              {metric}
+            </span>
+          ))}
+        </div>
         <div className="flex flex-wrap gap-3 pt-4">
           <a
             href={github}

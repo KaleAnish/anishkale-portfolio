@@ -8,9 +8,13 @@ export function About() {
           <span className="text-primary font-mono text-lg">01.</span> About
           <div className="h-px bg-border flex-1 ml-4" />
         </h3>
-        <p className="text-lg leading-relaxed text-muted-foreground">
-          {PORTFOLIO.about}
-        </p>
+        <div className="space-y-4">
+          {PORTFOLIO.about.map((para, i) => (
+            <p key={i} className="text-base leading-relaxed text-muted-foreground">
+              {para}
+            </p>
+          ))}
+        </div>
       </div>
     </section>
   );

@@ -12,8 +12,11 @@ export const PORTFOLIO = {
     email: "akale014@ucr.edu",
     resume: "/resume.pdf",
   },
-  about:
-    "Anish A. Kale is a Master's student in Computational Data Science at the University of California, Riverside, with experience in machine learning, geospatial analytics, multimodal retrieval, fairness-aware modeling, and applied data systems. His work spans CLIP-based search, natural-language-driven spatial analytics, responsible AI for credit scoring, and computer vision systems.",
+  about: [
+    "Anish A. Kale is a Master's student in Computational Data Science at the University of California, Riverside, with experience in machine learning, geospatial analytics, multimodal retrieval, and applied data systems.",
+    "His work includes CLIP-based image–text retrieval, natural-language-driven spatial analytics using PostGIS, responsible AI for credit scoring, and computer vision pipelines. He focuses on building scalable, real-world ML systems that combine technical depth with practical impact.",
+    "His interests span multimodal AI, geospatial intelligence, and applied machine learning in high-impact domains.",
+  ],
   skills: {
     Programming: ["Python", "SQL", "C++", "R", "MATLAB"],
     "ML/AI": [
@@ -130,12 +133,11 @@ export const PORTFOLIO = {
       links: { paper: "#", doi: "#", citation: "#" },
     },
     {
-      title: "Coming Soon",
+      title: "The Role of Renewable Energy in Africa's Development",
       authors: "Anish A. Kale",
-      venue: "Manuscript / Project Report",
-      year: "2026",
-      links: {},
-      placeholder: true,
+      venue: "BRICS Youth Energy Agency",
+      year: "2024",
+      links: { article: "https://yeabrics.org/en/commentaries-en/the-role-of-renewable-energy-in-africas-development/" },
     },
   ],
   beyondWork: {
@@ -144,7 +146,6 @@ export const PORTFOLIO = {
     instagram: "https://www.instagram.com/pnq.spotter/",
   },
   contact: {
-    tagline:
-      "Open to opportunities in Data Science, Machine Learning, Analytics, Applied AI, and Geospatial Data Systems. Feel free to reach out for roles, collaborations, or research discussions.",
+    tagline: "Open to Data Science, Machine Learning, and Applied AI roles.",
   },
 };

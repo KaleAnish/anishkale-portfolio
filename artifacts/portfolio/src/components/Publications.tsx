@@ -75,6 +75,16 @@ export function Publications() {
                         <Quote className="w-3 h-3" /> Cite
                       </a>
                     )}
+                    {pub.links.article && (
+                      <a
+                        href={pub.links.article}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium border border-border rounded hover:border-primary/40 hover:text-primary hover:bg-primary/5 transition-colors"
+                      >
+                        <ExternalLink className="w-3 h-3" /> Read Article
+                      </a>
+                    )}
                   </div>
                 )}
               </div>
