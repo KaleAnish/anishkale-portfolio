@@ -141,6 +141,32 @@ export const PORTFOLIO = {
       },
     },
   ],
+  certifications: [
+    {
+      title: "Social and Behavioral Research",
+      issuer: "CITI Program",
+      issued: "03/2026",
+      expiry: "03/2029",
+      credentialId: "75687925",
+      link: null,
+    },
+    {
+      title: "Biomedical Data or Specimens Only Research",
+      issuer: "CITI Program",
+      issued: "02/2026",
+      expiry: "02/2029",
+      credentialId: "75537353",
+      link: null,
+    },
+    {
+      title: "EY CAFTA Finance and Treasury Bootcamp 2024",
+      issuer: "EY",
+      issued: "03/2024",
+      expiry: null,
+      credentialId: null,
+      link: null,
+    },
+  ],
   beyondWork: {
     description:
       "Outside technical work, Anish is an aviation enthusiast and a plane spotter, photographing and documenting aircraft and airline operations through his Instagram handle @pnq.spotter, alongside providing flight reviews and the latest regional news and knowledge about aviation in India and the US. His page has been recognised and featured by various airlines and airports in India and the US, while also earning appreciation from India's Minister of State for Civil Aviation.",

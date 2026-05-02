@@ -42,7 +42,7 @@ export function Contact() {
 }
 
 export function Footer() {
-  const { linkedin, instagram, name } = PORTFOLIO.personalInfo;
+  const { linkedin, name } = PORTFOLIO.personalInfo;
 
   return (
     <footer className="py-8 text-center px-4 bg-background border-t border-border">
@@ -54,14 +54,6 @@ export function Footer() {
           className="text-muted-foreground hover:text-primary transition-colors text-sm"
         >
           LinkedIn
-        </a>
-        <a
-          href={instagram}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-muted-foreground hover:text-primary transition-colors text-sm"
-        >
-          @pnq.spotter
         </a>
       </div>
       <p className="text-xs text-muted-foreground">
