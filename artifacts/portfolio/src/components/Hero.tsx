@@ -2,7 +2,7 @@ import { PORTFOLIO } from "../data/portfolio";
 import { Github, Linkedin, Mail, FileText } from "lucide-react";
 
 export function Hero() {
-  const { name, title, tagline, github, linkedin, email, resume } =
+  const { name, title, tagline, github, linkedin, email, resumeDataML, resumeFinConsulting } =
     PORTFOLIO.personalInfo;
 
   return (
@@ -11,26 +11,18 @@ export function Hero() {
       className="pt-24 pb-20 md:pt-32 md:pb-32 px-4 md:px-8 container mx-auto flex flex-col-reverse md:flex-row items-center gap-12"
     >
       <div className="flex-1 space-y-6">
-        <div className="space-y-3">
+        <div className="space-y-2">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-foreground">
             {name}
           </h1>
-          <h2 className="text-xl md:text-2xl font-mono text-muted-foreground">
+          <h2 className="text-xl md:text-2xl font-semibold text-muted-foreground leading-snug">
             {title}
           </h2>
         </div>
         <p className="text-lg text-foreground/75 max-w-2xl leading-relaxed">
           {tagline}
         </p>
-        <div className="flex flex-wrap gap-x-5 gap-y-2 pt-1">
-          {["6+ ML Projects", "IEEE Publication", "27% CLIP Retrieval", "<100ms Latency Systems"].map((metric) => (
-            <span key={metric} className="flex items-center gap-1.5 text-sm font-mono text-primary">
-              <span className="w-1 h-1 rounded-full bg-primary inline-block" />
-              {metric}
-            </span>
-          ))}
-        </div>
-        <div className="flex flex-wrap gap-3 pt-4">
+        <div className="flex flex-wrap gap-3 pt-2">
           <a
             href={github}
             target="_blank"
@@ -53,13 +45,23 @@ export function Hero() {
           >
             <Mail className="w-4 h-4" /> Email
           </a>
+        </div>
+        <div className="flex flex-wrap gap-3">
           <a
-            href={resume}
+            href={resumeDataML}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 px-5 py-2.5 border border-border bg-background hover:bg-muted hover:border-primary/30 transition-colors text-sm font-medium rounded-md"
+            className="flex items-center gap-2 px-4 py-2 border border-border bg-background hover:bg-muted hover:border-primary/30 transition-colors text-sm font-medium rounded-md text-foreground/80"
           >
-            <FileText className="w-4 h-4" /> Resume
+            <FileText className="w-4 h-4 shrink-0" /> Data / ML Resume
+          </a>
+          <a
+            href={resumeFinConsulting}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 px-4 py-2 border border-border bg-background hover:bg-muted hover:border-primary/30 transition-colors text-sm font-medium rounded-md text-foreground/80"
+          >
+            <FileText className="w-4 h-4 shrink-0" /> Finance / Consulting Resume
           </a>
         </div>
       </div>
@@ -69,7 +71,7 @@ export function Hero() {
           <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary/25 via-primary/10 to-transparent blur-xl" />
           <div className="relative w-full h-full rounded-full border-2 border-primary/20 shadow-lg flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-100 via-sky-50 to-teal-50">
             <div className="absolute inset-0 bg-gradient-to-br from-primary/8 to-transparent" />
-            <span className="font-mono text-5xl md:text-7xl font-bold text-primary/50 select-none tracking-tight">
+            <span className="text-5xl md:text-7xl font-bold text-primary/50 select-none tracking-tight">
               AK
             </span>
           </div>

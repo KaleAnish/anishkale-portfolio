@@ -1,8 +1,8 @@
 import { PORTFOLIO } from "../data/portfolio";
-import { Mail, Github, Linkedin, Instagram } from "lucide-react";
+import { Mail, Linkedin, Instagram } from "lucide-react";
 
 export function Contact() {
-  const { email, github, linkedin, instagram } = PORTFOLIO.personalInfo;
+  const { email, linkedin } = PORTFOLIO.personalInfo;
   const { tagline } = PORTFOLIO.contact;
 
   return (
@@ -11,7 +11,7 @@ export function Contact() {
       className="py-24 bg-gradient-to-b from-background to-muted/40 px-4 md:px-8 text-center border-t border-border"
     >
       <div className="container mx-auto max-w-2xl flex flex-col items-center">
-        <span className="text-xs font-mono text-primary tracking-widest uppercase mb-4">
+        <span className="text-xs font-medium text-primary tracking-widest uppercase mb-4">
           Get In Touch
         </span>
         <h2 className="text-4xl font-bold mb-6 text-foreground">
@@ -26,14 +26,6 @@ export function Contact() {
             className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground font-medium rounded-md hover:bg-primary/85 transition-colors shadow-sm text-sm"
           >
             <Mail className="w-4 h-4" /> Email Me
-          </a>
-          <a
-            href={github}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-6 py-3 border border-border bg-background font-medium rounded-md hover:border-primary/40 hover:bg-muted transition-colors text-sm"
-          >
-            <Github className="w-4 h-4" /> GitHub
           </a>
           <a
             href={linkedin}
@@ -80,7 +72,7 @@ export function Footer() {
           @pnq.spotter
         </a>
       </div>
-      <p className="text-xs text-muted-foreground font-mono">
+      <p className="text-xs text-muted-foreground">
         Designed &amp; Built by {name} &copy; {new Date().getFullYear()}
       </p>
     </footer>
