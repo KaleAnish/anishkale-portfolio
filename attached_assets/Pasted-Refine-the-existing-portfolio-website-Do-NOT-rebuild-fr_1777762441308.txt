@@ -1,0 +1,149 @@
+Refine the existing portfolio website. Do NOT rebuild from scratch. Keep the current React/Vite/Tailwind structure and maintain all content in src/data/portfolio.ts.
+
+Main goals:
+1. Improve visual design with subtle color accents (professional, not flashy)
+2. Clean up project cards and simplify links (GitHub + Report only)
+3. Improve Publications section to support multiple entries
+4. Correct and enhance the @pnq.spotter Instagram section
+5. Improve overall spacing, alignment, and visual hierarchy
+
+----------------------------------------
+
+DESIGN IMPROVEMENTS:
+
+- Keep light theme
+- Add subtle accent color (deep blue / teal)
+- Use light gradients in hero or section dividers
+- Improve button styles (hover effects, slightly stronger contrast)
+- Add subtle card shadows and borders
+- Keep everything minimal and recruiter-friendly
+- Do NOT add dark mode
+
+----------------------------------------
+
+HERO SECTION:
+
+- Add badge above name:
+  “M.S. Computational Data Science @ UC Riverside”
+
+- Keep:
+  Name
+  Title
+  Tagline
+  Buttons (GitHub, LinkedIn, Email, Resume)
+
+- Improve avatar placeholder:
+  Make it more polished with gradient background or subtle styling
+
+----------------------------------------
+
+PROJECTS SECTION (IMPORTANT):
+
+- Keep grid/tile layout
+- Each card should have:
+  - Title
+  - Short description
+  - Key result / impact line
+  - Tech stack chips
+
+- ONLY include buttons:
+  - GitHub
+  - Report (optional)
+
+- Remove:
+  ❌ Demo button
+  ❌ Paper button
+
+- If Report not available:
+  - Either hide it OR show disabled “Coming Soon”
+
+- Ensure:
+  - All cards same height
+  - Clean alignment
+  - Buttons placed consistently at bottom
+
+----------------------------------------
+
+PUBLICATIONS SECTION:
+
+- Convert into multiple publication cards
+
+Each card should include:
+- Title
+- Authors
+- Venue
+- Year
+- Buttons:
+  - Paper
+  - DOI
+  - Citation (all placeholders for now)
+
+Add:
+
+1.
+Title: Solar Energy Prognostication: A Machine Learning based Approach  
+Authors: A. Gurjar, A. Kale, P. Randive, R. Basu, R. Kulkarni, et al.  
+Venue: IEEE UPCON  
+Year: 2023  
+
+2. Placeholder:
+Title: Coming Soon  
+Authors: Anish A. Kale  
+Venue: Manuscript / Project Report  
+Year: 2026  
+
+----------------------------------------
+
+BEYOND WORK SECTION:
+
+- Fix branding:
+
+Text:
+“Outside technical work, Anish is an aviation enthusiast and plane spotter, documenting aircraft movements and airline operations through @pnq.spotter.”
+
+- Add Instagram link:
+https://www.instagram.com/pnq.spotter/
+
+- Button:
+“Visit @pnq.spotter”
+
+----------------------------------------
+
+CONTACT SECTION:
+
+Rewrite text to:
+
+“Open to opportunities in Data Science, Machine Learning, Analytics, Applied AI, and Geospatial Data Systems. Feel free to reach out for roles, collaborations, or research discussions.”
+
+- Keep:
+  Email button
+  GitHub button
+  LinkedIn button
+
+----------------------------------------
+
+FOOTER:
+
+- Add Instagram link (@pnq.spotter)
+- Keep:
+  GitHub
+  LinkedIn
+  “Designed & Built by Anish A. Kale © 2026”
+
+----------------------------------------
+
+TECH REQUIREMENTS:
+
+- No backend
+- No APIs
+- No authentication
+- Fully static
+- Must be deployable on Vercel
+- Keep all content easily editable in a single data file
+- Maintain responsiveness
+
+----------------------------------------
+
+FINAL GOAL:
+
+Make the portfolio slightly more colorful, cleaner, and more professional, while keeping it simple and easy to maintain.
