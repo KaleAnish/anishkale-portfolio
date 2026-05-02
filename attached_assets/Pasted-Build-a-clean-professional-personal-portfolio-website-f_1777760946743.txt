@@ -1,0 +1,117 @@
+Build a clean, professional personal portfolio website for Anish A. Kale using React, Vite, and Tailwind CSS.
+
+Use this positioning:
+Name: Anish A. Kale
+Title: Data Scientist | Machine Learning Engineer | Geospatial & Multimodal AI
+Location: California, USA
+Tagline: Building applied machine learning systems across multimodal search, geospatial analytics, responsible AI, and data-driven decision support.
+
+Important links:
+GitHub: https://github.com/KaleAnish
+LinkedIn: https://www.linkedin.com/in/kaleanish
+Email: akale014@ucr.edu
+
+Design requirements:
+- Modern, minimal, recruiter-friendly
+- Light theme with subtle dark text, soft borders, and clean cards
+- Do NOT make it flashy or overly animated
+- Fully responsive for mobile and desktop
+- Use a tile/card system for projects
+- Use a sticky top navigation bar
+- Use smooth scrolling between sections
+- Include buttons for GitHub, LinkedIn, Email, and Resume
+- Resume button can point to placeholder path: /resume.pdf
+
+Website sections:
+
+1. Hero Section
+- Left side: name, title, tagline, CTA buttons
+- Right side: professional portrait placeholder/image card
+- Avoid huge informal text like “Hi, I’m Anish”
+- Make the first impression polished and technical
+
+2. About Section
+Write a concise paragraph:
+Anish A. Kale is a Master’s student in Computational Data Science at the University of California, Riverside, with experience in machine learning, geospatial analytics, multimodal retrieval, fairness-aware modeling, and applied data systems. His work spans CLIP-based search, natural-language-driven spatial analytics, responsible AI for credit scoring, and computer vision systems.
+
+3. Skills Section
+Use grouped skill tiles:
+- Programming: Python, SQL, C++, R, MATLAB
+- ML/AI: PyTorch, Scikit-learn, LoRA, Computer Vision, Reinforcement Learning, SHAP, LIME
+- Data Systems: PostGIS, FAISS, Apache Spark, Spark SQL, ETL Pipelines, Database Management
+- Analytics Tools: Tableau, Power BI, Excel, SAP ERP
+
+4. Experience Section
+Use timeline cards:
+A. Graduate Student Research Assistant — UCR CLAIR Lab
+- Privacy-aware data pipelines for Instagram and YouTube-extracted datasets
+- Feature engineering workflows and secure data governance for sensitive research environments
+
+B. Project Trainee — Mercedes-Benz India
+- SAP ERP-based database management across 10+ vehicle models
+- Automated validation and analysis of INR 10 million worth of international claims using Excel, Power BI, Tableau/SQL
+- Supplier audit and procurement workflow support with KPI dashboards and INCOTERMS documentation
+
+5. Projects Section
+Create a responsive tile/grid system with 6 project cards. Each card must include:
+- Project title
+- Short 2-line description
+- Tech stack chips
+- Key result/impact line
+- Buttons: GitHub, Report, Demo. Use placeholder links if unknown.
+
+Project cards:
+
+A. Fine-Grained Multimodal Search with LoRA-Tuned CLIP & OOD Detection
+Description: Built a CLIP-based image-text retrieval system using LoRA fine-tuning, segmentation, OOD detection, and FAISS indexing.
+Tech: Python, PyTorch, CLIP, LoRA, FAISS, Hugging Face
+Impact: ~27% Top-1 retrieval precision on Flickr8k and sub-100ms query latency.
+
+B. GeoQuery: Natural-Language-Driven Geospatial Analytics Platform
+Description: Built a Streamlit system that translates natural language questions into PostGIS spatial SQL with interactive map visualizations.
+Tech: Python, Streamlit, PostGIS, SQL, LLM Orchestration, Groq
+Impact: Enabled multi-state spatial operations with hybrid LLM + rule-based fallback logic.
+
+C. Data Bias Mitigation in Financial Credit Scoring
+Description: Applied fairness-aware preprocessing and postprocessing methods on credit scoring models using age as a protected attribute.
+Tech: Python, Scikit-learn, SMOTE, Logistic Regression, SVM, Decision Trees, Random Forest
+Impact: Random Forest achieved 90.1% recall while reducing age-based outcome disparity by 23 percentage points.
+
+D. Low-Light Enhancement for Urban Surveillance using Zero-DCE
+Description: Replicated and adapted the CVPR 2020 Zero-DCE model for unsupervised low-light image enhancement.
+Tech: Python, PyTorch, Computer Vision, Zero-DCE
+Impact: Achieved 27.9 dB PSNR on low-light and DarkFace datasets.
+
+E. Reinforcement Learning–Based Trading Strategy
+Description: Built a quantitative trading pipeline with market data, custom Gymnasium portfolio simulation, and transaction-cost modeling.
+Tech: Python, Reinforcement Learning, Gymnasium, Financial Data, Backtesting
+Impact: Benchmarked learned policies against Buy-and-Hold and volatility-targeted strategies using CAGR, Sharpe, Sortino, max drawdown, and turnover.
+
+F. Real-Time Wildfire Resilience Digital Twin
+Description: Designed a scalable wildfire decision-support architecture using streaming fire/weather data and geospatial risk computation.
+Tech: Kafka, Spark Structured Streaming, Apache Sedona, Geospatial Analytics, Dashboarding
+Impact: Demonstrates real-time risk mapping and simulation-mode architecture for emergency response workflows.
+
+6. Publications Section
+Add:
+Solar Energy Prognostication: A Machine Learning based Approach
+Presented at the 10th IEEE Uttar Pradesh Section International Conference on Electrical, Electronics & Computer Engineering (UPCON) 2023.
+
+7. Optional Personal Section
+Title: Beyond Work
+Mention aviation photography / PnQ.Spotter briefly and professionally:
+Outside technical work, Anish is an aviation enthusiast and plane spotter, documenting aircraft movements and airline operations through PnQ.Spotter.
+Add placeholder link for Instagram.
+
+8. Contact Section
+Include email, GitHub, LinkedIn, and a short line:
+Open to Data Science, Machine Learning, Analytics, and Applied AI roles.
+
+Implementation requirements:
+- Use reusable React components: Navbar, Hero, About, Skills, Experience, Projects, Publications, Contact, Footer
+- Keep all content in a structured data file or constants object so it is easy to edit later
+- Use Tailwind CSS
+- No backend
+- No database
+- No external paid APIs
+- Make the code clean and easy for a beginner to modify
