@@ -1,0 +1,56 @@
+Apply the following targeted refinements only. Do NOT rebuild from scratch. Preserve the existing React/Vite/Tailwind structure and keep editable content in src/data/portfolio.ts.
+
+1. ABOUT SECTION — integrate LinkedIn bio
+Replace the current About text with this polished integrated version:
+
+“Anish A. Kale is a Master’s student in Computational Data Science at the University of California, Riverside, with an applied background at the intersection of Electrical Engineering, machine learning, quantitative analytics, and data-driven systems.
+
+His work spans end-to-end projects across supervised learning, reinforcement learning, computer vision, multimodal retrieval, geospatial analytics, financial risk modeling, and responsible AI. He enjoys applying statistical and systems-level thinking to complex real-world datasets, especially in contexts that require both technical depth and business understanding.
+
+His interests span technology-driven domains including aviation, energy systems, finance, geospatial intelligence, and applied analytics, with a focus on building systems where data can drive meaningful insight and practical impact.”
+
+Keep it concise and readable. Do not make the About section too long.
+
+2. EDUCATION / EXPERIENCE DATES
+Use MM/YYYY format wherever dates appear.
+
+Education:
+- University of California, Riverside — M.S. Computational Data Science — 2024–Present
+- College of Engineering Pune — B.Tech. Electrical Engineering, Minor in Financial Engineering — 2020–2024
+
+Experience:
+- UCR CLAIR Lab — Graduate Student Research Assistant — 01/2026–Present
+- Mercedes-Benz India — Project Trainee — 05/2023–07/2023
+
+If Education is not currently a separate section, do not create a huge new section. Add a compact Education block near About or Experience.
+
+3. FOOTER
+Remove GitHub from the footer entirely.
+Footer should only show:
+- LinkedIn
+- @pnq.spotter
+
+Keep:
+“Designed & Built by Anish A. Kale © 2026”
+
+Do not remove GitHub from the hero section or project cards.
+
+4. MOBILE OPTIMIZATION CHECK
+Ensure the site is optimized for cellphone viewing:
+- Navbar collapses into a hamburger menu on mobile
+- Menu includes About, Skills, Experience, Projects, Publications, Contact, Data / ML Resume, Finance / Consulting / Data Resume
+- Hero text scales down properly on small screens
+- Buttons wrap cleanly and do not overflow
+- Skills chips wrap compactly
+- Project cards stack into one column on mobile
+- Publication cards stack cleanly
+- Footer links remain centered and readable
+- No horizontal scrolling on mobile
+
+After applying the changes, summarize exactly what was done for mobile responsiveness.
+
+5. FINAL CONSTRAINTS
+- Do not add dark mode.
+- Do not add new unnecessary sections.
+- Do not add backend, APIs, database, or authentication.
+- Keep the site fully static and deployable on Vercel.

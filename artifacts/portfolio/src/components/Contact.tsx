@@ -42,19 +42,11 @@ export function Contact() {
 }
 
 export function Footer() {
-  const { github, linkedin, instagram, name } = PORTFOLIO.personalInfo;
+  const { linkedin, instagram, name } = PORTFOLIO.personalInfo;
 
   return (
     <footer className="py-8 text-center px-4 bg-background border-t border-border">
       <div className="flex justify-center gap-6 mb-4">
-        <a
-          href={github}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-muted-foreground hover:text-primary transition-colors text-sm"
-        >
-          GitHub
-        </a>
         <a
           href={linkedin}
           target="_blank"

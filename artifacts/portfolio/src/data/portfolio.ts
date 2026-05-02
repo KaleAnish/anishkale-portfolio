@@ -13,9 +13,21 @@ export const PORTFOLIO = {
     resumeFinConsulting: "/resume-fin-consulting-data.pdf",
   },
   about: [
-    "Anish A. Kale is a Master's student in Computational Data Science at the University of California, Riverside, with experience in machine learning, geospatial analytics, multimodal retrieval, and applied data systems.",
-    "His work includes CLIP-based image–text retrieval, natural-language-driven spatial analytics using PostGIS, responsible AI for credit scoring, and computer vision pipelines. He focuses on building scalable, real-world ML systems that combine technical depth with practical impact.",
-    "His interests span multimodal AI, geospatial intelligence, and applied machine learning in high-impact domains.",
+    "Anish A. Kale is a Master's student in Computational Data Science at the University of California, Riverside, with an applied background at the intersection of Electrical Engineering, machine learning, quantitative analytics, and data-driven systems.",
+    "His work spans end-to-end projects across supervised learning, reinforcement learning, computer vision, multimodal retrieval, geospatial analytics, financial risk modeling, and responsible AI. He enjoys applying statistical and systems-level thinking to complex real-world datasets, especially in contexts that require both technical depth and business understanding.",
+    "His interests span technology-driven domains including aviation, energy systems, finance, geospatial intelligence, and applied analytics, with a focus on building systems where data can drive meaningful insight and practical impact.",
+  ],
+  education: [
+    {
+      degree: "M.S. Computational Data Science",
+      school: "University of California, Riverside",
+      period: "09/2024 – 03/2026",
+    },
+    {
+      degree: "B.Tech. Electrical Engineering, Minor in Financial Engineering",
+      school: "College of Engineering Pune",
+      period: "06/2020 – 05/2024",
+    },
   ],
   skills: {
     "Programming": ["Python", "SQL", "C++", "R", "MATLAB"],
@@ -39,6 +51,7 @@ export const PORTFOLIO = {
     {
       role: "Graduate Student Research Assistant",
       company: "UCR CLAIR Lab",
+      period: "01/2026 – 03/2026",
       bullets: [
         "Privacy-aware data pipelines for Instagram and YouTube-extracted datasets",
         "Feature engineering workflows and secure data governance for sensitive research environments",
@@ -47,6 +60,7 @@ export const PORTFOLIO = {
     {
       role: "Project Trainee",
       company: "Mercedes-Benz India",
+      period: "05/2023 – 07/2023",
       bullets: [
         "SAP ERP-based database management across 10+ vehicle models",
         "Automated validation and analysis of INR 10 million worth of international claims using Excel, Power BI, Tableau/SQL",
