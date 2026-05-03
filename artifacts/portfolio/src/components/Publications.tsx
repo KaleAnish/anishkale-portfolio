@@ -21,7 +21,7 @@ export function Publications() {
                   : "border-border hover:border-primary/30 hover:shadow-sm"
               }`}
             >
-              <div className="mt-1 flex-shrink-0 text-primary">
+              <div className="mt-1 flex-shrink-0 text-primary" aria-hidden="true">
                 <BookOpen className="w-5 h-5" />
               </div>
               <div className="flex-1 min-w-0">
@@ -50,9 +50,10 @@ export function Publications() {
                         href={pub.links.paper}
                         target="_blank"
                         rel="noopener noreferrer"
+                        aria-label={`Read paper: ${pub.title} (opens in new tab)`}
                         className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium border border-border rounded hover:border-primary/40 hover:text-primary hover:bg-primary/5 transition-colors"
                       >
-                        <ExternalLink className="w-3 h-3" /> Paper
+                        <ExternalLink className="w-3 h-3" aria-hidden="true" /> Paper
                       </a>
                     )}
                     {pub.links.doi && (
@@ -60,9 +61,10 @@ export function Publications() {
                         href={pub.links.doi}
                         target="_blank"
                         rel="noopener noreferrer"
+                        aria-label={`View DOI for: ${pub.title} (opens in new tab)`}
                         className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium border border-border rounded hover:border-primary/40 hover:text-primary hover:bg-primary/5 transition-colors"
                       >
-                        <ExternalLink className="w-3 h-3" /> DOI
+                        <ExternalLink className="w-3 h-3" aria-hidden="true" /> DOI
                       </a>
                     )}
                     {pub.links.citation && (
@@ -70,9 +72,10 @@ export function Publications() {
                         href={pub.links.citation}
                         target="_blank"
                         rel="noopener noreferrer"
+                        aria-label={`Cite: ${pub.title} (opens in new tab)`}
                         className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium border border-border rounded hover:border-primary/40 hover:text-primary hover:bg-primary/5 transition-colors"
                       >
-                        <Quote className="w-3 h-3" /> Cite
+                        <Quote className="w-3 h-3" aria-hidden="true" /> Cite
                       </a>
                     )}
                     {pub.links.article && (
@@ -80,9 +83,10 @@ export function Publications() {
                         href={pub.links.article}
                         target="_blank"
                         rel="noopener noreferrer"
+                        aria-label={`Read full article: ${pub.title} (opens in new tab)`}
                         className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium border border-border rounded hover:border-primary/40 hover:text-primary hover:bg-primary/5 transition-colors"
                       >
-                        <ExternalLink className="w-3 h-3" /> Read Article
+                        <ExternalLink className="w-3 h-3" aria-hidden="true" /> Read Article
                       </a>
                     )}
                   </div>

@@ -40,6 +40,7 @@ export function Experience() {
                         <img
                           src={exp.logo}
                           alt={exp.logoAlt}
+                          loading="lazy"
                           className="h-7 md:h-8 w-auto object-contain"
                         />
                       </div>
@@ -48,6 +49,7 @@ export function Experience() {
                         <img
                           src={exp.logo}
                           alt={exp.logoAlt}
+                          loading="lazy"
                           className="h-10 md:h-11 w-auto max-w-[90px] object-contain"
                         />
                       </div>

@@ -11,7 +11,7 @@ export function BeyondWork() {
         <div className="h-px bg-border flex-1 ml-4" />
       </h3>
       <div className="flex flex-col md:flex-row gap-6 items-start bg-gradient-to-br from-sky-50/60 to-teal-50/40 p-8 rounded-lg border border-border">
-        <div className="text-primary p-3.5 bg-white rounded-lg border border-border shadow-sm shrink-0">
+        <div className="text-primary p-3.5 bg-white rounded-lg border border-border shadow-sm shrink-0" aria-hidden="true">
           <Plane className="w-6 h-6" />
         </div>
         <div className="space-y-4 flex-1">
@@ -22,9 +22,10 @@ export function BeyondWork() {
             href={beyondWork.instagram}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Visit @pnq.spotter aviation Instagram page (opens in new tab)"
             className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium border border-border rounded-md bg-white hover:border-primary/40 hover:text-primary hover:bg-primary/5 transition-colors shadow-sm"
           >
-            <Instagram className="w-4 h-4" />
+            <Instagram className="w-4 h-4" aria-hidden="true" />
             Visit @pnq.spotter
           </a>
         </div>
