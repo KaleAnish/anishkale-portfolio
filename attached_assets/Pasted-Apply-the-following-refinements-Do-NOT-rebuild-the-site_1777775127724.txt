@@ -1,0 +1,76 @@
+Apply the following refinements. Do NOT rebuild the site. Only update existing components and content.
+
+========================
+1. EMAIL / CONTACT FUNCTIONALITY
+========================
+
+- Add a working email action wherever "Get in Touch" or Email appears
+- Use a mailto link:
+
+mailto:akale014@ucr.edu
+
+- Behavior:
+  - Clicking should open the user's default email client
+  - Optional subject:
+    ?subject=Reaching%20out%20from%20your%20portfolio
+
+- Ensure this works in:
+  - Hero section (if email button exists)
+  - Contact section
+
+========================
+2. ADD BRICS YEA PUBLICATION LINK
+========================
+
+Add to Publications section:
+
+Title:
+The Role of Renewable Energy in Africa’s Development
+
+Source:
+BRICS Youth Energy Agency (YEA)
+
+Year:
+2025
+
+Button:
+"Read Article"
+
+Link:
+https://yeabrics.org/en/commentaries-en/the-role-of-renewable-energy-in-africas-development/
+
+- Keep styling consistent with IEEE publication card
+- Do NOT overcomplicate (no DOI/Cite needed here)
+
+========================
+3. HERO LOCATION
+========================
+
+- Add location below the main title/subtitle in hero:
+
+"California, USA"
+
+- Style:
+  - Subtle (smaller text)
+  - Slightly muted color (e.g., gray-500)
+  - Proper spacing (not too close to title)
+
+========================
+4. UPDATE "BEYOND WORK" TEXT
+========================
+
+Replace existing text with:
+
+Outside technical work, Anish is an observant avid traveller and a plane spotter, photographing and documenting aircraft and airline operations through his Instagram handle @pnq.spotter, alongside providing flight reviews and the latest regional news and knowledge about aviation in India and the US. His page has been recognised and featured by various airlines, airports and government ministers in India and the US.
+
+- Keep formatting clean
+- Do not change layout
+
+========================
+5. FINAL CHECKS
+========================
+
+- Maintain responsiveness
+- Do not add new sections
+- Do not change design theme
+- Keep everything clean and recruiter-friendly

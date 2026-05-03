@@ -27,7 +27,7 @@ function HeroImage() {
 }
 
 export function Hero() {
-  const { name, title, tagline, github, linkedin, email, resumeDataML, resumeFinConsulting } =
+  const { name, title, tagline, location, github, linkedin, email, resumeDataML, resumeFinConsulting } =
     PORTFOLIO.personalInfo;
 
   return (
@@ -43,6 +43,9 @@ export function Hero() {
           <h2 className="text-xl md:text-2xl font-semibold text-muted-foreground leading-snug">
             {title}
           </h2>
+          <p className="text-sm text-muted-foreground/70 pt-1 tracking-wide">
+            {location}
+          </p>
         </div>
         <p className="text-lg text-foreground/75 max-w-2xl leading-relaxed">
           {tagline}
@@ -65,7 +68,7 @@ export function Hero() {
             <Linkedin className="w-4 h-4" /> LinkedIn
           </a>
           <a
-            href={`mailto:${email}`}
+            href={`mailto:${email}?subject=Reaching%20out%20from%20your%20portfolio`}
             className="flex items-center gap-2 px-5 py-2.5 border border-border bg-background hover:bg-muted hover:border-primary/30 transition-colors text-sm font-medium rounded-md"
           >
             <Mail className="w-4 h-4" /> Email

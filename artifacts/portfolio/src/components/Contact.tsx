@@ -22,7 +22,7 @@ export function Contact() {
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <a
-            href={`mailto:${email}`}
+            href={`mailto:${email}?subject=Reaching%20out%20from%20your%20portfolio`}
             className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground font-medium rounded-md hover:bg-primary/85 transition-colors shadow-sm text-sm"
           >
             <Mail className="w-4 h-4" /> Email Me

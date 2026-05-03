@@ -139,8 +139,8 @@ export const PORTFOLIO = {
     {
       title: "The Role of Renewable Energy in Africa's Development",
       authors: "Anish A. Kale",
-      venue: "BRICS Youth Energy Agency",
-      year: "2024",
+      venue: "BRICS Youth Energy Agency (YEA)",
+      year: "2025",
       links: {
         article:
           "https://yeabrics.org/en/commentaries-en/the-role-of-renewable-energy-in-africas-development/",
@@ -175,7 +175,7 @@ export const PORTFOLIO = {
   ],
   beyondWork: {
     description:
-      "Outside technical work, Anish is an aviation enthusiast and a plane spotter, photographing and documenting aircraft and airline operations through his Instagram handle @pnq.spotter, alongside providing flight reviews and the latest regional news and knowledge about aviation in India and the US. His page has been recognised and featured by various airlines and airports in India and the US, while also earning appreciation from India's Minister of State for Civil Aviation.",
+      "Outside technical work, Anish is an observant avid traveller and a plane spotter, photographing and documenting aircraft and airline operations through his Instagram handle @pnq.spotter, alongside providing flight reviews and the latest regional news and knowledge about aviation in India and the US. His page has been recognised and featured by various airlines, airports and government ministers in India and the US.",
     instagram: "https://www.instagram.com/pnq.spotter/",
   },
   contact: {
