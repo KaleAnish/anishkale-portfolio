@@ -1,0 +1,8 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "5A9nvPvZaIb_ClghC6ZJy"
+uri = "file://artifacts/portfolio/public/og-image.png"
+type = "image"
+title = "OG Preview Image (1200×630)"
