@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Outer ring -->
+  <circle cx="50" cy="50" r="46" fill="white" stroke="#1a1a1a" stroke-width="4"/>
+  <!-- Three-pointed star: each arm is a triangle from tip to center width -->
+  <!-- Top arm: tip (50,4), base corners at center ±5px perpendicular -->
+  <polygon points="50,4 45,50 55,50" fill="#1a1a1a"/>
+  <!-- Lower-right arm: tip at 120° from top -->
+  <polygon points="89.8,73 47.7,45.7 52.3,54.3" fill="#1a1a1a"/>
+  <!-- Lower-left arm: tip at 240° from top -->
+  <polygon points="10.2,73 47.7,54.3 52.3,45.7" fill="#1a1a1a"/>
+  <!-- Center hub -->
+  <circle cx="50" cy="50" r="6" fill="#1a1a1a"/>
+  <!-- Inner ring outline -->
+  <circle cx="50" cy="50" r="30" fill="none" stroke="#1a1a1a" stroke-width="1.2"/>
+</svg>

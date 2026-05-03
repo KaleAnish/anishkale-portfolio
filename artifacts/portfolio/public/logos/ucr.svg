@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 40" fill="none">
+  <!-- UC Riverside official wordmark style -->
+  <!-- Blue bar on left -->
+  <rect x="0" y="4" width="4" height="32" rx="1" fill="#003DA5"/>
+  <!-- UC text -->
+  <text x="10" y="17" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="700" fill="#003DA5">UC</text>
+  <!-- Riverside text -->
+  <text x="10" y="32" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" letter-spacing="0.5" fill="#1a1a1a">RIVERSIDE</text>
+</svg>
