@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://your-portfolio.replit.app/</loc>
+    <loc>https://portfolio-builder--kaleanish02.replit.app/</loc>
     <priority>1.0</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://your-portfolio.replit.app/#about</loc>
+    <loc>https://portfolio-builder--kaleanish02.replit.app/#about</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://your-portfolio.replit.app/#skills</loc>
+    <loc>https://portfolio-builder--kaleanish02.replit.app/#skills</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://your-portfolio.replit.app/#experience</loc>
+    <loc>https://portfolio-builder--kaleanish02.replit.app/#experience</loc>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://your-portfolio.replit.app/#projects</loc>
+    <loc>https://portfolio-builder--kaleanish02.replit.app/#projects</loc>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://your-portfolio.replit.app/#publications</loc>
+    <loc>https://portfolio-builder--kaleanish02.replit.app/#publications</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://your-portfolio.replit.app/#contact</loc>
+    <loc>https://portfolio-builder--kaleanish02.replit.app/#contact</loc>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>

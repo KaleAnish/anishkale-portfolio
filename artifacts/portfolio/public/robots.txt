@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://your-portfolio.replit.app/sitemap.xml
+Sitemap: https://portfolio-builder--kaleanish02.replit.app/sitemap.xml
