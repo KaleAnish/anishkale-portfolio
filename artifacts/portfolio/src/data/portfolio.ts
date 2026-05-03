@@ -81,7 +81,7 @@ export const PORTFOLIO = {
         "Built a CLIP-based image-text retrieval system using LoRA fine-tuning, segmentation, OOD detection, and FAISS indexing.",
       tech: ["Python", "PyTorch", "CLIP", "LoRA", "FAISS", "Hugging Face"],
       impact: "~27% Top-1 retrieval precision on Flickr8k and sub-100ms query latency.",
-      links: { github: "#" },
+      links: { github: "https://github.com/KaleAnish/clip-multimodal-search-engine" },
     },
     {
       title: "GeoQuery: Natural-Language-Driven Geospatial Analytics Platform",
@@ -89,7 +89,7 @@ export const PORTFOLIO = {
         "Built a Streamlit system that translates natural language questions into PostGIS spatial SQL with interactive map visualizations.",
       tech: ["Python", "Streamlit", "PostGIS", "SQL", "LLM Orchestration", "Groq"],
       impact: "Enabled multi-state spatial operations with hybrid LLM + rule-based fallback logic.",
-      links: { github: "#" },
+      links: { github: "https://github.com/KaleAnish/geoquery-chat-with-the-map-nl2sql" },
     },
     {
       title: "Data Bias Mitigation in Financial Credit Scoring",
@@ -98,7 +98,7 @@ export const PORTFOLIO = {
       tech: ["Python", "Scikit-learn", "SMOTE", "Logistic Regression", "SVM", "Decision Trees", "Random Forest"],
       impact:
         "Random Forest achieved 90.1% recall while reducing age-based outcome disparity by 23 percentage points.",
-      links: { github: "#", report: "#" },
+      links: { github: null },
     },
     {
       title: "Low-Light Enhancement for Urban Surveillance using Zero-DCE",
@@ -106,7 +106,7 @@ export const PORTFOLIO = {
         "Replicated and adapted the CVPR 2020 Zero-DCE model for unsupervised low-light image enhancement.",
       tech: ["Python", "PyTorch", "Computer Vision", "Zero-DCE"],
       impact: "Achieved 27.9 dB PSNR on low-light and DarkFace datasets.",
-      links: { github: "#", report: "#" },
+      links: { github: "https://github.com/KaleAnish/zero-dce-lowlight-enhancement" },
     },
     {
       title: "Reinforcement Learning–Based Trading Strategy",
@@ -115,7 +115,7 @@ export const PORTFOLIO = {
       tech: ["Python", "Reinforcement Learning", "Gymnasium", "Financial Data", "Backtesting"],
       impact:
         "Benchmarked learned policies against Buy-and-Hold and volatility-targeted strategies using CAGR, Sharpe, Sortino, max drawdown, and turnover.",
-      links: { github: "#" },
+      links: { github: "https://github.com/KaleAnish/finance-rl-agentx-newframework" },
     },
     {
       title: "Real-Time Wildfire Resilience Digital Twin",
@@ -124,7 +124,7 @@ export const PORTFOLIO = {
       tech: ["Kafka", "Spark Structured Streaming", "Apache Sedona", "Geospatial Analytics", "Dashboarding"],
       impact:
         "Demonstrates real-time risk mapping and simulation-mode architecture for emergency response workflows.",
-      links: { github: "#" },
+      links: { github: "https://github.com/KaleAnish/geospatial-streaming-wildfire-digital-twin" },
     },
   ],
   publications: [
