@@ -59,11 +59,13 @@ export function Navbar() {
           <div className="relative">
             <button
               onClick={() => setResumeOpen((o) => !o)}
+              aria-label="Open resumes menu"
+              aria-expanded={resumeOpen}
               className="flex items-center gap-1.5 px-4 py-2 text-sm font-medium bg-primary text-primary-foreground rounded-md hover:bg-primary/85 transition-colors"
             >
-              <FileText className="w-4 h-4" />
+              <FileText className="w-4 h-4" aria-hidden="true" />
               Resumes
-              <ChevronDown className={`w-3.5 h-3.5 transition-transform ${resumeOpen ? "rotate-180" : ""}`} />
+              <ChevronDown className={`w-3.5 h-3.5 transition-transform ${resumeOpen ? "rotate-180" : ""}`} aria-hidden="true" />
             </button>
             {resumeOpen && (
               <div className="absolute right-0 mt-2 w-56 bg-background border border-border rounded-md shadow-md overflow-hidden z-50">
@@ -71,19 +73,21 @@ export function Navbar() {
                   href={resumeDataML}
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Download Data / ML Resume (opens in new tab)"
                   onClick={() => setResumeOpen(false)}
                   className="flex items-center gap-2 px-4 py-3 text-sm text-foreground hover:bg-muted hover:text-primary transition-colors"
                 >
-                  <FileText className="w-4 h-4 shrink-0" /> Data / ML Resume
+                  <FileText className="w-4 h-4 shrink-0" aria-hidden="true" /> Data / ML Resume
                 </a>
                 <a
                   href={resumeFinConsulting}
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Download Finance / Consulting Resume (opens in new tab)"
                   onClick={() => setResumeOpen(false)}
                   className="flex items-center gap-2 px-4 py-3 text-sm text-foreground hover:bg-muted hover:text-primary transition-colors border-t border-border"
                 >
-                  <FileText className="w-4 h-4 shrink-0" /> Finance / Consulting Resume
+                  <FileText className="w-4 h-4 shrink-0" aria-hidden="true" /> Finance / Consulting Resume
                 </a>
               </div>
             )}

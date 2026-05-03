@@ -9,7 +9,7 @@ function HeroImage() {
     return (
       <img
         src="/images/outdoor.png"
-        alt="Anish Kale outdoor portrait"
+        alt="Anish Kale standing outdoors in a mountainous snowy landscape"
         onError={() => setErrored(true)}
         className="w-full h-full object-cover object-top"
       />
@@ -35,7 +35,7 @@ export function Hero() {
       id="hero"
       className="pt-24 pb-20 md:pt-32 md:pb-32 px-4 md:px-8 container mx-auto flex flex-col-reverse md:flex-row items-center gap-10 md:gap-16"
     >
-      <div className="flex-1 space-y-6">
+      <div className="flex-1 space-y-6 min-w-0">
         <div className="space-y-2">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-foreground">
             {name}
@@ -55,23 +55,26 @@ export function Hero() {
             href={github}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="View Anish Kale's GitHub profile (opens in new tab)"
             className="flex items-center gap-2 px-5 py-2.5 bg-foreground text-background rounded-md hover:bg-foreground/85 transition-colors text-sm font-medium shadow-sm"
           >
-            <Github className="w-4 h-4" /> GitHub
+            <Github className="w-4 h-4" aria-hidden="true" /> GitHub
           </a>
           <a
             href={linkedin}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="View Anish Kale's LinkedIn profile (opens in new tab)"
             className="flex items-center gap-2 px-5 py-2.5 bg-primary text-primary-foreground rounded-md hover:bg-primary/85 transition-colors text-sm font-medium shadow-sm"
           >
-            <Linkedin className="w-4 h-4" /> LinkedIn
+            <Linkedin className="w-4 h-4" aria-hidden="true" /> LinkedIn
           </a>
           <a
             href={`mailto:${email}?subject=Reaching%20out%20from%20your%20portfolio`}
+            aria-label={`Send email to ${email}`}
             className="flex items-center gap-2 px-5 py-2.5 border border-border bg-background hover:bg-muted hover:border-primary/30 transition-colors text-sm font-medium rounded-md"
           >
-            <Mail className="w-4 h-4" /> Email
+            <Mail className="w-4 h-4" aria-hidden="true" /> Email
           </a>
         </div>
         <div className="flex flex-wrap gap-3">
@@ -79,17 +82,19 @@ export function Hero() {
             href={resumeDataML}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Download Data / ML Resume (opens in new tab)"
             className="flex items-center gap-2 px-4 py-2 border border-border bg-background hover:bg-muted hover:border-primary/30 transition-colors text-sm font-medium rounded-md text-foreground/80"
           >
-            <FileText className="w-4 h-4 shrink-0" /> Data / ML Resume
+            <FileText className="w-4 h-4 shrink-0" aria-hidden="true" /> Data / ML Resume
           </a>
           <a
             href={resumeFinConsulting}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Download Finance / Consulting Resume (opens in new tab)"
             className="flex items-center gap-2 px-4 py-2 border border-border bg-background hover:bg-muted hover:border-primary/30 transition-colors text-sm font-medium rounded-md text-foreground/80"
           >
-            <FileText className="w-4 h-4 shrink-0" /> Finance / Consulting Resume
+            <FileText className="w-4 h-4 shrink-0" aria-hidden="true" /> Finance / Consulting Resume
           </a>
         </div>
       </div>

@@ -23,17 +23,19 @@ export function Contact() {
         <div className="flex flex-wrap justify-center gap-4">
           <a
             href={`mailto:${email}?subject=Reaching%20out%20from%20your%20portfolio`}
+            aria-label={`Send email to ${email}`}
             className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground font-medium rounded-md hover:bg-primary/85 transition-colors shadow-sm text-sm"
           >
-            <Mail className="w-4 h-4" /> Email Me
+            <Mail className="w-4 h-4" aria-hidden="true" /> Email Me
           </a>
           <a
             href={linkedin}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="View Anish Kale's LinkedIn profile (opens in new tab)"
             className="inline-flex items-center gap-2 px-6 py-3 border border-border bg-background font-medium rounded-md hover:border-primary/40 hover:bg-muted transition-colors text-sm"
           >
-            <Linkedin className="w-4 h-4" /> LinkedIn
+            <Linkedin className="w-4 h-4" aria-hidden="true" /> LinkedIn
           </a>
         </div>
       </div>
@@ -51,6 +53,7 @@ export function Footer() {
           href={linkedin}
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Anish Kale on LinkedIn (opens in new tab)"
           className="text-muted-foreground hover:text-primary transition-colors text-sm"
         >
           LinkedIn
@@ -59,6 +62,7 @@ export function Footer() {
           href={instagram}
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Anish Kale's aviation Instagram @pnq.spotter (opens in new tab)"
           className="text-muted-foreground hover:text-primary transition-colors text-sm"
         >
           Instagram
