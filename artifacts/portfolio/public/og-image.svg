@@ -1,34 +1,78 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0f2744;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#1e3a5f;stop-opacity:1" />
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0b1f38"/>
+      <stop offset="100%" stop-color="#1a3354"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#38bdf8;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#2dd4bf;stop-opacity:1" />
+    <linearGradient id="teal" x1="0" y1="0" x2="480" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#2dd4bf"/>
+    </linearGradient>
+    <linearGradient id="pill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#2dd4bf" stop-opacity="0.10"/>
     </linearGradient>
   </defs>
 
-  <rect width="1200" height="630" fill="url(#bg)" />
+  <rect width="1200" height="630" fill="url(#bg)"/>
 
-  <circle cx="1100" cy="80" r="200" fill="#ffffff" fill-opacity="0.03" />
-  <circle cx="1060" cy="570" r="260" fill="#38bdf8" fill-opacity="0.04" />
-  <circle cx="80" cy="500" r="180" fill="#2dd4bf" fill-opacity="0.04" />
+  <circle cx="1080" cy="100" r="320" fill="#38bdf8" fill-opacity="0.04"/>
+  <circle cx="1140" cy="560" r="200" fill="#2dd4bf" fill-opacity="0.05"/>
+  <circle cx="60"   cy="540" r="240" fill="#1e40af" fill-opacity="0.06"/>
 
-  <rect x="80" y="80" width="5" height="470" fill="url(#accent)" rx="3" />
+  <rect x="80" y="88" width="480" height="3" rx="1.5" fill="url(#teal)" opacity="0.35"/>
 
-  <text x="120" y="200" font-family="Georgia, 'Times New Roman', serif" font-size="90" font-weight="700" fill="#ffffff" letter-spacing="-1">Anish A. Kale</text>
+  <text
+    x="80" y="218"
+    font-family="'Helvetica Neue', Arial, 'Liberation Sans', sans-serif"
+    font-size="96"
+    font-weight="700"
+    fill="#f8fafc"
+    letter-spacing="-2"
+  >Anish A. Kale</text>
 
-  <rect x="120" y="225" width="580" height="4" fill="url(#accent)" rx="2" />
+  <rect x="80" y="242" width="520" height="3" rx="1.5" fill="url(#teal)"/>
 
-  <text x="120" y="295" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="400" fill="#94a3b8" letter-spacing="0.5">Data Science  •  ML  •  Analytics</text>
-  <text x="120" y="345" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="400" fill="#94a3b8" letter-spacing="0.5">Geospatial &amp; Multimodal AI</text>
+  <text
+    x="80" y="310"
+    font-family="'Helvetica Neue', Arial, 'Liberation Sans', sans-serif"
+    font-size="30"
+    font-weight="400"
+    fill="#94a3b8"
+    letter-spacing="0.5"
+  >Data Science  ·  ML  ·  Analytics</text>
 
-  <rect x="120" y="482" width="960" height="1" fill="#ffffff" fill-opacity="0.12" />
+  <text
+    x="80" y="358"
+    font-family="'Helvetica Neue', Arial, 'Liberation Sans', sans-serif"
+    font-size="30"
+    font-weight="400"
+    fill="#94a3b8"
+    letter-spacing="0.5"
+  >Geospatial &amp; Multimodal AI</text>
 
-  <text x="120" y="542" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#38bdf8" letter-spacing="1">www.anishkale.dev</text>
+  <rect x="80" y="490" width="1040" height="1" fill="#ffffff" fill-opacity="0.08"/>
 
-  <rect x="1020" y="508" width="130" height="44" rx="8" fill="#38bdf8" fill-opacity="0.15" />
-  <text x="1085" y="536" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="600" fill="#38bdf8" text-anchor="middle">Portfolio</text>
+  <rect x="80" y="518" width="218" height="46" rx="23" fill="url(#pill)"/>
+  <text
+    x="189" y="547"
+    font-family="'Helvetica Neue', Arial, 'Liberation Sans', sans-serif"
+    font-size="22"
+    font-weight="500"
+    fill="#38bdf8"
+    text-anchor="middle"
+    letter-spacing="0.5"
+  >www.anishkale.dev</text>
+
+  <rect x="980" y="518" width="140" height="46" rx="8" fill="#38bdf8" fill-opacity="0.12"/>
+  <rect x="980" y="518" width="140" height="46" rx="8" fill="none" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.3"/>
+  <text
+    x="1050" y="547"
+    font-family="'Helvetica Neue', Arial, 'Liberation Sans', sans-serif"
+    font-size="19"
+    font-weight="600"
+    fill="#38bdf8"
+    text-anchor="middle"
+    letter-spacing="0.3"
+  >Portfolio</text>
 </svg>
