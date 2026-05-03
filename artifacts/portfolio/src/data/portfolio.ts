@@ -9,8 +9,8 @@ export const PORTFOLIO = {
     linkedin: "https://www.linkedin.com/in/kaleanish",
     instagram: "https://www.instagram.com/pnq.spotter/",
     email: "akale014@ucr.edu",
-    resumeDataML: "/resume-data-ml.pdf",
-    resumeFinConsulting: "/resume-fin-consulting-data.pdf",
+    resumeDataML: "https://drive.google.com/drive/folders/1KFO11ExDKDi0CpZFjkRjUWpnAIyjjJ99?usp=drive_link",
+    resumeFinConsulting: "https://drive.google.com/drive/folders/1Cb8DaImUwOVRDdIEPg44VOyIum-kl9fH?usp=drive_link",
   },
   about: [
     "Anish A. Kale is a Master's student in Computational Data Science at the University of California, Riverside, with an applied background at the intersection of Electrical Engineering, machine learning, quantitative analytics, and data-driven systems.",
