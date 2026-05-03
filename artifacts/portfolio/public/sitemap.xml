@@ -2,36 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.anishkale.dev/</loc>
+    <lastmod>2026-05-03</lastmod>
     <priority>1.0</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.anishkale.dev/#about</loc>
+    <lastmod>2026-05-03</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.anishkale.dev/#skills</loc>
+    <lastmod>2026-05-03</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.anishkale.dev/#experience</loc>
+    <lastmod>2026-05-03</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.anishkale.dev/#projects</loc>
+    <lastmod>2026-05-03</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.anishkale.dev/#publications</loc>
+    <lastmod>2026-05-03</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://www.anishkale.dev/#contact</loc>
+    <lastmod>2026-05-03</lastmod>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
