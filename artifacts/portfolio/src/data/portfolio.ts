@@ -180,6 +180,6 @@ export const PORTFOLIO = {
   },
   contact: {
     tagline:
-      "Open to Data Science, Machine Learning, Data Analyst, Business Analyst, Business Operations, Applied AI, Analytics, and Geospatial Data Systems roles.",
+      "Open to Data Science, Machine Learning, Data Analyst, Business Analyst, Business Operations, Applied AI, Analytics, and Geospatial Data Systems roles. Authorized to work in the United States and open to relocation across the U.S.",
   },
 };
