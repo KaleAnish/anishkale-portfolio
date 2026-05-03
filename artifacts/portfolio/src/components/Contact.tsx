@@ -1,5 +1,5 @@
 import { PORTFOLIO } from "../data/portfolio";
-import { Mail, Linkedin, Instagram } from "lucide-react";
+import { Mail, Linkedin } from "lucide-react";
 
 export function Contact() {
   const { email, linkedin } = PORTFOLIO.personalInfo;
@@ -44,7 +44,7 @@ export function Contact() {
 }
 
 export function Footer() {
-  const { linkedin, instagram, name } = PORTFOLIO.personalInfo;
+  const { linkedin, name } = PORTFOLIO.personalInfo;
 
   return (
     <footer className="py-8 text-center px-4 bg-background border-t border-border">
@@ -57,15 +57,6 @@ export function Footer() {
           className="text-muted-foreground hover:text-primary transition-colors text-sm"
         >
           LinkedIn
-        </a>
-        <a
-          href={instagram}
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Anish Kale's aviation Instagram @pnq.spotter (opens in new tab)"
-          className="text-muted-foreground hover:text-primary transition-colors text-sm"
-        >
-          Instagram
         </a>
       </div>
       <p className="text-xs text-muted-foreground">

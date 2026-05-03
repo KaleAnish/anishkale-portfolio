@@ -32,35 +32,30 @@ export function Experience() {
           {experience.map((exp, index) => (
             <div key={index} className="relative">
               <div className="absolute -left-[31px] top-1.5 w-3 h-3 bg-primary rounded-full border-4 border-card" />
-              <div className="space-y-1 mb-3">
-                <div className="flex items-center gap-3">
-                  {exp.logo && (
-                    exp.logoDark ? (
-                      <div className="shrink-0 rounded-lg overflow-hidden bg-[#1a1a1a] p-1.5 flex items-center justify-center h-10 md:h-11 w-auto">
-                        <img
-                          src={exp.logo}
-                          alt={exp.logoAlt}
-                          loading="lazy"
-                          className="h-7 md:h-8 w-auto object-contain"
-                        />
-                      </div>
-                    ) : (
-                      <div className="shrink-0 flex items-center justify-center h-10 md:h-11">
-                        <img
-                          src={exp.logo}
-                          alt={exp.logoAlt}
-                          loading="lazy"
-                          className="h-10 md:h-11 w-auto max-w-[90px] object-contain"
-                        />
-                      </div>
-                    )
-                  )}
-                  <h4 className="text-lg font-bold text-foreground leading-snug">
-                    {exp.role} <span className="text-primary">@ {exp.company}</span>
+
+              <div className="flex items-start gap-3 mb-3">
+                {exp.logo && (
+                  <div
+                    className="shrink-0 flex items-center justify-center rounded-xl border border-border bg-white"
+                    style={{ width: 56, height: 56 }}
+                  >
+                    <img
+                      src={exp.logo}
+                      alt={exp.logoAlt}
+                      loading="lazy"
+                      style={{ maxHeight: 36, maxWidth: 44, objectFit: "contain", display: "block" }}
+                    />
+                  </div>
+                )}
+                <div className="min-w-0">
+                  <h4 className="text-base font-bold text-foreground leading-snug">
+                    {exp.role}{" "}
+                    <span className="text-primary">@ {exp.company}</span>
                   </h4>
+                  <p className="text-xs font-mono text-muted-foreground mt-0.5">{exp.period}</p>
                 </div>
-                <p className="text-xs font-mono text-muted-foreground">{exp.period}</p>
               </div>
+
               <ul className="space-y-2 text-muted-foreground list-disc pl-5 marker:text-primary/50">
                 {exp.bullets.map((bullet, i) => (
                   <li key={i} className="leading-relaxed pl-1 text-sm">{bullet}</li>

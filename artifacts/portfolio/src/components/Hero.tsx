@@ -11,14 +11,13 @@ function HeroImage() {
         src="/images/outdoor.png"
         alt="Anish Kale standing outdoors in a mountainous snowy landscape"
         onError={() => setErrored(true)}
-        className="w-full h-full object-cover object-top"
+        style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "50% 20%", display: "block" }}
       />
     );
   }
 
   return (
     <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-slate-100 via-sky-50 to-teal-50">
-      <div className="absolute inset-0 bg-gradient-to-br from-primary/8 to-transparent" />
       <span className="text-5xl md:text-7xl font-bold text-primary/50 select-none tracking-tight">
         AK
       </span>
@@ -99,8 +98,11 @@ export function Hero() {
         </div>
       </div>
 
-      <div className="flex-shrink-0 w-full max-w-[280px] md:max-w-[300px]">
-        <div className="relative w-full aspect-[3/4] rounded-2xl overflow-hidden shadow-lg border border-border/40">
+      <div className="flex-shrink-0 w-full max-w-[260px] md:max-w-[280px]">
+        <div
+          className="relative w-full overflow-hidden rounded-2xl shadow-lg border border-border/40"
+          style={{ aspectRatio: "3 / 4" }}
+        >
           <HeroImage />
         </div>
       </div>
