@@ -1,4 +1,18 @@
+// =============================================================================
+// PORTFOLIO CONTENT — Edit this file to update any section of the site.
+//
+// Deployment: save → push to GitHub → Vercel auto-deploys to anishkale.dev
+// Sections in order: personalInfo → about → education → skills → experience
+//                    → projects → publications → certifications → beyondWork → contact
+// =============================================================================
+
 export const PORTFOLIO = {
+
+  // ---------------------------------------------------------------------------
+  // PERSONAL INFO
+  // Drives: Hero section name, title, tagline, social links, resume buttons.
+  // Resume links should be Google Drive "Anyone with link" share URLs.
+  // ---------------------------------------------------------------------------
   personalInfo: {
     name: "Anish A. Kale",
     title: "Building Data Science & Machine Learning Systems | Data Analytics | Geospatial & Multimodal AI",
@@ -9,14 +23,27 @@ export const PORTFOLIO = {
     linkedin: "https://www.linkedin.com/in/kaleanish",
     instagram: "https://www.instagram.com/pnq.spotter/",
     email: "akale014@ucr.edu",
+    // Update these Google Drive URLs when uploading a new resume version:
     resumeDataML: "https://drive.google.com/drive/folders/1KFO11ExDKDi0CpZFjkRjUWpnAIyjjJ99?usp=drive_link",
     resumeFinConsulting: "https://drive.google.com/drive/folders/1Cb8DaImUwOVRDdIEPg44VOyIum-kl9fH?usp=drive_link",
   },
+
+  // ---------------------------------------------------------------------------
+  // ABOUT
+  // Array of paragraph strings shown in the About section.
+  // Add, remove, or reorder paragraphs freely.
+  // ---------------------------------------------------------------------------
   about: [
     "Anish A. Kale is a Master's student in Computational Data Science at the University of California, Riverside, with an applied background at the intersection of Electrical Engineering, machine learning, quantitative analytics, and data-driven systems.",
     "His work spans end-to-end projects across supervised learning, reinforcement learning, computer vision, multimodal retrieval, geospatial analytics, financial risk modeling, and responsible AI. He enjoys applying statistical and systems-level thinking to complex real-world datasets, especially in contexts that require both technical depth and business understanding.",
     "His interests span technology-driven domains including aviation, energy systems, finance, geospatial intelligence, and applied analytics, with a focus on building systems where data can drive meaningful insight and practical impact.",
   ],
+
+  // ---------------------------------------------------------------------------
+  // EDUCATION
+  // Shown inside the Experience section (03), above work history.
+  // Fields: degree, school, period ("MM/YYYY – MM/YYYY")
+  // ---------------------------------------------------------------------------
   education: [
     {
       degree: "M.S. Computational Data Science",
@@ -29,6 +56,12 @@ export const PORTFOLIO = {
       period: "06/2020 – 05/2024",
     },
   ],
+
+  // ---------------------------------------------------------------------------
+  // SKILLS
+  // Object where each key is a category heading and value is an array of skills.
+  // Add a new category by adding a new key. Skills render as pill badges.
+  // ---------------------------------------------------------------------------
   skills: {
     "Programming": ["Python", "SQL", "C++", "R", "MATLAB"],
     "ML / AI": [
@@ -47,6 +80,15 @@ export const PORTFOLIO = {
     ],
     "Languages": ["English", "German", "Hindi", "Marathi"],
   },
+
+  // ---------------------------------------------------------------------------
+  // EXPERIENCE
+  // Array of work experience entries shown in section 03.
+  // logo: path relative to /public (e.g. "/logos/company.png")
+  // logoDark: set true if the logo image has a dark/opaque background
+  //           (wraps it in a dark container so it looks correct on white)
+  // bullets: array of achievement strings (keep concise, metric-driven)
+  // ---------------------------------------------------------------------------
   experience: [
     {
       role: "Graduate Student Research Assistant",
@@ -65,7 +107,7 @@ export const PORTFOLIO = {
       company: "Mercedes-Benz India",
       logo: "/logos/mercedes.png",
       logoAlt: "Mercedes-Benz",
-      logoDark: true,
+      logoDark: true, // mercedes.png has a dark background — keep logoDark: true
       period: "05/2023 – 07/2023",
       bullets: [
         "SAP ERP-based database management across 10+ vehicle models",
@@ -74,6 +116,14 @@ export const PORTFOLIO = {
       ],
     },
   ],
+
+  // ---------------------------------------------------------------------------
+  // PROJECTS
+  // Array shown in section 04. Most recent / most impressive first.
+  // links.github: full GitHub URL, or null if the repo is private
+  // tech: array of technology/tool strings shown as badges
+  // impact: one-line quantified outcome or key result
+  // ---------------------------------------------------------------------------
   projects: [
     {
       title: "Fine-Grained Multimodal Search with LoRA-Tuned CLIP & OOD Detection",
@@ -98,7 +148,7 @@ export const PORTFOLIO = {
       tech: ["Python", "Scikit-learn", "SMOTE", "Logistic Regression", "SVM", "Decision Trees", "Random Forest"],
       impact:
         "Random Forest achieved 90.1% recall while reducing age-based outcome disparity by 23 percentage points.",
-      links: { github: null },
+      links: { github: null }, // repo is private — set to a URL string when public
     },
     {
       title: "Low-Light Enhancement for Urban Surveillance using Zero-DCE",
@@ -127,6 +177,14 @@ export const PORTFOLIO = {
       links: { github: "https://github.com/KaleAnish/geospatial-streaming-wildfire-digital-twin" },
     },
   ],
+
+  // ---------------------------------------------------------------------------
+  // PUBLICATIONS
+  // Array shown in section 05.
+  // links: { paper: "URL" } for journal/conference papers
+  //        { article: "URL" } for web articles / blog posts
+  //        { doi: "URL" } for DOI links (can coexist with paper)
+  // ---------------------------------------------------------------------------
   publications: [
     {
       title: "Solar Energy Prognostication: A Machine Learning based Approach",
@@ -147,6 +205,14 @@ export const PORTFOLIO = {
       },
     },
   ],
+
+  // ---------------------------------------------------------------------------
+  // CERTIFICATIONS
+  // Array shown in section 06.
+  // expiry: set to null if the certification does not expire
+  // credentialId: set to null if not applicable
+  // link: set to null if there is no verification URL
+  // ---------------------------------------------------------------------------
   certifications: [
     {
       title: "Social and Behavioral Research",
@@ -173,11 +239,22 @@ export const PORTFOLIO = {
       link: null,
     },
   ],
+
+  // ---------------------------------------------------------------------------
+  // BEYOND WORK
+  // Section 07. Single description paragraph + Instagram link.
+  // ---------------------------------------------------------------------------
   beyondWork: {
     description:
       "Outside technical work, Anish is an observant avid traveller and a plane spotter, photographing and documenting aircraft and airline operations through his Instagram handle @pnq.spotter, alongside providing flight reviews and the latest regional news and knowledge about aviation in India and the US. His page has been recognised and featured by various airlines, airports and government ministers in India and the US.",
     instagram: "https://www.instagram.com/pnq.spotter/",
   },
+
+  // ---------------------------------------------------------------------------
+  // CONTACT
+  // tagline: the opportunity / availability statement shown in "Let's Connect".
+  // Update this whenever your job search status or target roles change.
+  // ---------------------------------------------------------------------------
   contact: {
     tagline:
       "Open to Data Science, Machine Learning, Data Analyst, Business Analyst, Business Operations, Applied AI, Analytics, and Geospatial Data Systems roles. Authorized to work in the United States and open to relocation across the U.S.",
