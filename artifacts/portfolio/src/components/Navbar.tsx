@@ -11,6 +11,27 @@ const NAV_LINKS = [
   { label: "Contact", href: "#contact" },
 ];
 
+function NavAvatar() {
+  const [errored, setErrored] = useState(false);
+
+  if (!errored) {
+    return (
+      <img
+        src="/images/headshot.jpg"
+        alt="Anish A. Kale profile photo"
+        onError={() => setErrored(true)}
+        className="w-10 h-10 rounded-full object-cover object-top border border-border/60 shrink-0"
+      />
+    );
+  }
+
+  return (
+    <div className="w-10 h-10 rounded-full bg-gradient-to-br from-slate-100 via-sky-50 to-teal-50 border border-border/60 flex items-center justify-center shrink-0">
+      <span className="text-xs font-bold text-primary/60 select-none">AK</span>
+    </div>
+  );
+}
+
 export function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [resumeOpen, setResumeOpen] = useState(false);
@@ -19,8 +40,11 @@ export function Navbar() {
   return (
     <nav className="sticky top-0 z-50 w-full border-b bg-background/90 backdrop-blur-md">
       <div className="container mx-auto px-4 md:px-8 h-16 flex items-center justify-between">
-        <a href="#hero" className="font-bold text-primary tracking-tight text-base">
-          AK
+        <a href="#hero" className="flex items-center gap-2.5">
+          <NavAvatar />
+          <span className="font-bold text-primary tracking-tight text-base hidden sm:block">
+            AK
+          </span>
         </a>
 
         <div className="hidden md:flex items-center gap-6 text-sm font-medium text-muted-foreground">

@@ -1,0 +1,75 @@
+I am attaching two images:
+
+1. A formal suit headshot → to be used as the navbar/profile circular image
+2. A casual full-body outdoor photo → to be used in the hero section (right side)
+
+Please implement the following:
+
+========================
+IMAGE PLACEMENT & STYLING
+========================
+
+NAVBAR / PROFILE IMAGE:
+- Replace the current "AK" circle with the formal headshot
+- Crop to a square centered on face and shoulders
+- Render as a circular image (rounded-full)
+- Size: ~40–48px (same as current avatar)
+- Object-fit: cover (face centered, no distortion)
+- Clean, professional look (no borders unless subtle)
+
+HERO SECTION IMAGE:
+- Replace the circular placeholder with the outdoor photo
+- Use a rectangular portrait layout (NOT circular)
+- Aspect ratio: 3:4 or 4:5
+- Crop to mid-thigh / waist-up framing (center subject)
+- Object-fit: cover
+- Add:
+  - Rounded corners (rounded-2xl)
+  - Soft shadow (shadow-lg)
+- Ensure it balances visually with the text on the left
+
+========================
+FALLBACK BEHAVIOR (IMPORTANT)
+========================
+
+If either image fails to load:
+
+- Automatically show the "AK" placeholder instead
+- The fallback must:
+  - Match the same size and shape
+  - Be circular for navbar
+  - Be rectangular for hero
+  - Have centered "AK" text
+  - Use the same soft background styling as current avatar
+
+Implementation:
+- Use <img onError> OR conditional rendering
+- Hide image on failure and render fallback div
+- Ensure NO layout shift
+
+========================
+RESPONSIVENESS
+========================
+
+- On mobile:
+  - Hero image should stack below text
+  - Maintain aspect ratio (no stretching)
+  - Reduce size slightly but keep clarity
+- Navbar avatar should scale appropriately
+
+========================
+ACCESSIBILITY
+========================
+
+- Add alt text:
+  - Navbar: "Anish A. Kale profile photo"
+  - Hero: "Anish Kale outdoor portrait"
+
+========================
+GOAL
+========================
+
+- Professional + personal balance:
+  - Navbar = formal identity
+  - Hero = personality & relatability
+- Clean, recruiter-friendly, modern UI

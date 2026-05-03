@@ -1,5 +1,30 @@
+import { useState } from "react";
 import { PORTFOLIO } from "../data/portfolio";
 import { Github, Linkedin, Mail, FileText } from "lucide-react";
+
+function HeroImage() {
+  const [errored, setErrored] = useState(false);
+
+  if (!errored) {
+    return (
+      <img
+        src="/images/outdoor.png"
+        alt="Anish Kale outdoor portrait"
+        onError={() => setErrored(true)}
+        className="w-full h-full object-cover object-top"
+      />
+    );
+  }
+
+  return (
+    <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-slate-100 via-sky-50 to-teal-50">
+      <div className="absolute inset-0 bg-gradient-to-br from-primary/8 to-transparent" />
+      <span className="text-5xl md:text-7xl font-bold text-primary/50 select-none tracking-tight">
+        AK
+      </span>
+    </div>
+  );
+}
 
 export function Hero() {
   const { name, title, tagline, github, linkedin, email, resumeDataML, resumeFinConsulting } =
@@ -8,7 +33,7 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="pt-24 pb-20 md:pt-32 md:pb-32 px-4 md:px-8 container mx-auto flex flex-col-reverse md:flex-row items-center gap-12"
+      className="pt-24 pb-20 md:pt-32 md:pb-32 px-4 md:px-8 container mx-auto flex flex-col-reverse md:flex-row items-center gap-10 md:gap-16"
     >
       <div className="flex-1 space-y-6">
         <div className="space-y-2">
@@ -66,15 +91,9 @@ export function Hero() {
         </div>
       </div>
 
-      <div className="flex-shrink-0">
-        <div className="relative w-48 h-48 md:w-64 md:h-64">
-          <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary/25 via-primary/10 to-transparent blur-xl" />
-          <div className="relative w-full h-full rounded-full border-2 border-primary/20 shadow-lg flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-100 via-sky-50 to-teal-50">
-            <div className="absolute inset-0 bg-gradient-to-br from-primary/8 to-transparent" />
-            <span className="text-5xl md:text-7xl font-bold text-primary/50 select-none tracking-tight">
-              AK
-            </span>
-          </div>
+      <div className="flex-shrink-0 w-full max-w-[280px] md:max-w-[300px]">
+        <div className="relative w-full aspect-[3/4] rounded-2xl overflow-hidden shadow-lg border border-border/40">
+          <HeroImage />
         </div>
       </div>
     </section>
