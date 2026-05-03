@@ -7,7 +7,7 @@ export function BeyondWork() {
   return (
     <section id="beyond-work" className="py-20 px-4 md:px-8 container mx-auto max-w-4xl">
       <h3 className="text-2xl font-bold mb-8 flex items-center gap-4">
-        <span className="text-primary font-mono text-lg">06.</span> Beyond Work
+        <span className="text-primary font-mono text-lg">07.</span> Beyond Work
         <div className="h-px bg-border flex-1 ml-4" />
       </h3>
       <div className="flex flex-col md:flex-row gap-6 items-start bg-gradient-to-br from-sky-50/60 to-teal-50/40 p-8 rounded-lg border border-border">

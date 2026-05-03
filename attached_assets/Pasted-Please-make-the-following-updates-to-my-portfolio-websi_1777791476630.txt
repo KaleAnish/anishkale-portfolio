@@ -1,0 +1,75 @@
+Please make the following updates to my portfolio website. These are strictly **content and metadata fixes only** — do NOT change layout, styling, structure, animations, or functionality.
+
+---
+
+### 1. Fix Duplicate Section Numbering
+
+There is an issue where section number **“06” appears twice** (e.g., Certifications and Get in Touch/Contact).
+
+**Task:**
+
+* Audit all visible section numbers across the page.
+* Ensure numbering is **strictly sequential and unique** (01, 02, 03, …).
+* Maintain logical order of sections.
+* Example (adjust based on actual structure):
+
+  * If Beyond Work is 06 → Certifications becomes 07 → Contact becomes 08.
+* Do NOT rename sections or change their order unless absolutely necessary — only fix numbering.
+
+---
+
+### 2. Improve SEO Metadata
+
+Update SEO-related metadata (likely in `index.html` or main layout file):
+
+#### Title
+
+Set:
+Anish Kale | Data Scientist & Machine Learning Engineer
+
+#### Meta Description
+
+Set:
+Data Scientist specializing in machine learning, multimodal AI, and geospatial analytics. Explore projects, research, and experience.
+
+---
+
+### 3. Add Open Graph (Social Sharing Tags)
+
+Ensure the following exist:
+
+* og:title: Anish Kale | Data Scientist & ML Engineer
+* og:description: same as meta description
+* og:type: website
+* og:url: use my current deployed Vercel URL
+* og:image: use my profile image or a suitable preview image
+
+---
+
+### 4. Add Canonical URL
+
+Add a canonical link tag pointing to my deployed Vercel URL to avoid duplicate indexing issues.
+
+---
+
+### 5. Ensure Favicon is Set
+
+Verify that the site has a working favicon (tab icon). If already present, leave it as is.
+
+---
+
+### 6. Constraints
+
+* Do NOT modify UI/UX, layout, spacing, fonts, or styling
+* Do NOT alter any project content, links, or sections
+* Only implement the fixes listed above
+
+---
+
+### 7. Output Requirement
+
+After making changes:
+
+* Tell me exactly **which files were modified**
+* Briefly summarize what was updated
+* Confirm that no other parts of the site were changed
