@@ -1,7 +1,7 @@
 export const PORTFOLIO = {
   personalInfo: {
     name: "Anish A. Kale",
-    title: "Data Scientist | Machine Learning Engineer | Geospatial & Multimodal AI",
+    title: "Building Data Science & Machine Learning Systems | Data Analytics | Geospatial & Multimodal AI",
     location: "California, USA",
     tagline:
       "Building applied machine learning systems across multimodal search, geospatial analytics, responsible AI, and data-driven decision support.",
