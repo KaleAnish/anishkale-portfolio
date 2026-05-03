@@ -4,7 +4,7 @@ export const PORTFOLIO = {
     title: "Building Data Science & Machine Learning Systems | Data Analytics | Geospatial & Multimodal AI",
     location: "California, USA",
     tagline:
-      "Building applied machine learning systems across multimodal search, geospatial analytics, responsible AI, and data-driven decision support.",
+      "Designing and deploying applied machine learning solutions across multimodal search, geospatial analytics, responsible AI, and data-driven decision support.",
     github: "https://github.com/KaleAnish",
     linkedin: "https://www.linkedin.com/in/kaleanish",
     instagram: "https://www.instagram.com/pnq.spotter/",
