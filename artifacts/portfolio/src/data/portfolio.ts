@@ -51,8 +51,9 @@ export const PORTFOLIO = {
     {
       role: "Graduate Student Research Assistant",
       company: "UCR CLAIR Lab",
-      logo: "/logos/ucr.svg",
+      logo: "/logos/ucr.png",
       logoAlt: "University of California, Riverside",
+      logoDark: false,
       period: "01/2026 – 03/2026",
       bullets: [
         "Privacy-aware data pipelines for Instagram and YouTube-extracted datasets",
@@ -62,8 +63,9 @@ export const PORTFOLIO = {
     {
       role: "Project Trainee",
       company: "Mercedes-Benz India",
-      logo: "/logos/mercedes.svg",
+      logo: "/logos/mercedes.png",
       logoAlt: "Mercedes-Benz",
+      logoDark: true,
       period: "05/2023 – 07/2023",
       bullets: [
         "SAP ERP-based database management across 10+ vehicle models",

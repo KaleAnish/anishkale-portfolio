@@ -33,13 +33,25 @@ export function Experience() {
             <div key={index} className="relative">
               <div className="absolute -left-[31px] top-1.5 w-3 h-3 bg-primary rounded-full border-4 border-card" />
               <div className="space-y-1 mb-3">
-                <div className="flex items-center gap-2.5">
+                <div className="flex items-center gap-3">
                   {exp.logo && (
-                    <img
-                      src={exp.logo}
-                      alt={exp.logoAlt}
-                      className="h-7 w-auto max-w-[72px] object-contain opacity-80 grayscale shrink-0"
-                    />
+                    exp.logoDark ? (
+                      <div className="shrink-0 rounded-lg overflow-hidden bg-[#1a1a1a] p-1.5 flex items-center justify-center h-10 md:h-11 w-auto">
+                        <img
+                          src={exp.logo}
+                          alt={exp.logoAlt}
+                          className="h-7 md:h-8 w-auto object-contain"
+                        />
+                      </div>
+                    ) : (
+                      <div className="shrink-0 flex items-center justify-center h-10 md:h-11">
+                        <img
+                          src={exp.logo}
+                          alt={exp.logoAlt}
+                          className="h-10 md:h-11 w-auto max-w-[90px] object-contain"
+                        />
+                      </div>
+                    )
                   )}
                   <h4 className="text-lg font-bold text-foreground leading-snug">
                     {exp.role} <span className="text-primary">@ {exp.company}</span>
