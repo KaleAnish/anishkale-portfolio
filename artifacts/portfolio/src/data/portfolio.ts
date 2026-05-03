@@ -134,7 +134,7 @@ export const PORTFOLIO = {
       venue:
         "IEEE UPCON — 10th IEEE Uttar Pradesh Section International Conference on Electrical, Electronics & Computer Engineering",
       year: "2023",
-      links: { paper: "#", doi: "#", citation: "#" },
+      links: { paper: "https://ieeexplore.ieee.org/document/10434922", doi: "https://ieeexplore.ieee.org/document/10434922" },
     },
     {
       title: "The Role of Renewable Energy in Africa's Development",
