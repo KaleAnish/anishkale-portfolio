@@ -34,11 +34,13 @@ export const PORTFOLIO = {
   // Add, remove, or reorder paragraphs freely.
   // ---------------------------------------------------------------------------
   about: [
-    "Anish A. Kale is a Master's student in Computational Data Science at the University of California, Riverside, with an applied background at the intersection of Electrical Engineering, machine learning, quantitative analytics, and data-driven systems.",
-    "His work spans end-to-end projects across supervised learning, reinforcement learning, computer vision, multimodal retrieval, geospatial analytics, financial risk modeling, and responsible AI. He enjoys applying statistical and systems-level thinking to complex real-world datasets, especially in contexts that require both technical depth and business understanding.",
-    "His interests span technology-driven domains including aviation, energy systems, finance, geospatial intelligence, and applied analytics, with a focus on building systems where data can drive meaningful insight and practical impact.",
-  ],
+  "I am a Master's student in Computational Data Science at the University of California, Riverside, with an applied background at the intersection of Electrical Engineering, machine learning, and quantitative analytics.",
 
+  "I build end-to-end systems across supervised and reinforcement learning, computer vision, multimodal retrieval, geospatial analytics, and financial risk modeling, with a focus on responsible AI and real-world applications.",
+
+  "I apply statistical rigor and systems-level thinking to complex datasets, particularly in contexts that require both technical depth and business understanding. My interests span domains such as finance, energy systems, and geospatial intelligence, with a focus on building multidisciplinary data-driven systems that create meaningful and practical impact.",
+],
+  
   // ---------------------------------------------------------------------------
   // EDUCATION
   // Shown inside the Experience section (03), above work history.
@@ -246,7 +248,7 @@ export const PORTFOLIO = {
   // ---------------------------------------------------------------------------
   beyondWork: {
     description:
-      "Outside technical work, Anish is an observant avid traveller and a plane spotter, photographing and documenting aircraft and airline operations through his Instagram handle @pnq.spotter, alongside providing flight reviews and the latest regional news and knowledge about aviation in India and the US. His page has been recognised and featured by various airlines, airports and government ministers in India and the US.",
+      "Beyond my technical work, I am an avid traveller and aviation enthusiast with a strong interest in plane spotting and documenting aircraft and airline operations. Through my Instagram platform @pnq.spotter, I share aviation photography, flight reviews, and insights on developments across India and the United States. My work has been recognised and featured by airlines, airports, and government officials, reflecting both the reach and credibility of my contributions to the aviation community.",
     instagram: "https://www.instagram.com/pnq.spotter/",
   },
 
@@ -257,6 +259,6 @@ export const PORTFOLIO = {
   // ---------------------------------------------------------------------------
   contact: {
     tagline:
-      "Open to Data Science, Machine Learning, Data Analyst, Business Analyst, Business Operations, Applied AI, Analytics, and Geospatial Data Systems roles. Authorized to work in the United States and open to relocation across the U.S.",
+      "I am open to opportunities in Data Science, Machine Learning, Data Analysis, Business Analytics, Business Operations, Applied AI, Geospatial Data Systems and similar allied domains. I am authorized to work in the United States and open to relocation across the U.S.",
   },
 };
