@@ -34,9 +34,9 @@ export const PORTFOLIO = {
   // Add, remove, or reorder paragraphs freely.
   // ---------------------------------------------------------------------------
   about: [
-  "I am a Master's student in Computational Data Science at the University of California, Riverside, with an applied background at the intersection of Electrical Engineering, machine learning, and quantitative analytics.",
+  "I hold an M.S. in Computational Data Science from the University of California, Riverside, building on an applied background at the intersection of Electrical Engineering, machine learning, and quantitative analytics. I currently work as a Staff Research Associate at UCR's Centre for Laboratory AI Research (CLAIR), on a joint research collaboration with Cornell University.",
 
-  "I build end-to-end systems across supervised and reinforcement learning, computer vision, multimodal retrieval, geospatial analytics, and financial risk modeling, with a focus on responsible AI and real-world applications.",
+  "I build end-to-end systems across supervised and reinforcement learning, computer vision, multimodal retrieval, retrieval-augmented generation, and financial risk modeling, with a focus on responsible AI and real-world applications.",
 
   "I apply statistical rigor and systems-level thinking to complex datasets, particularly in contexts that require both technical depth and business understanding. My interests span domains such as finance, energy systems, and geospatial intelligence, with a focus on building multidisciplinary data-driven systems that create meaningful and practical impact.",
 ],
@@ -50,7 +50,7 @@ export const PORTFOLIO = {
     {
       degree: "M.S. Computational Data Science",
       school: "University of California, Riverside",
-      period: "09/2024 – 03/2026",
+      period: "09/2024 – 06/2026",
     },
     {
       degree: "B.Tech. Electrical Engineering, Minor in Financial Engineering",
@@ -93,15 +93,18 @@ export const PORTFOLIO = {
   // ---------------------------------------------------------------------------
   experience: [
     {
-      role: "Graduate Student Research Assistant",
-      company: "UCR CLAIR Lab",
+      role: "Staff Research Associate",
+      company: "UCR Centre for Liberatory AI Research (CLAIR) Lab",
       logo: "/logos/ucr.png",
       logoAlt: "University of California, Riverside",
       logoDark: false,
-      period: "01/2026 – 03/2026",
+      period: "01/2026 – Present",
       bullets: [
-        "Privacy-aware data pipelines for Instagram and YouTube-extracted datasets",
-        "Feature engineering workflows and secure data governance for sensitive research environments",
+        "Built and testing privacy-aware Instagram and YouTube data-donation workflows, improving participant guidance, validation, and extractor reliability across heterogeneous platform exports",
+
+        "Engineering reproducible pipelines to clean, merge, de-identify, relabel, and validate messy longitudinal research datasets",
+
+        "Aligning survey observations with intervention timelines to enable longitudinal analysis of behavioral and digital-platform outcomes",
       ],
     },
     {
