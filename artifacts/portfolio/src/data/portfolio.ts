@@ -34,7 +34,7 @@ export const PORTFOLIO = {
   // Add, remove, or reorder paragraphs freely.
   // ---------------------------------------------------------------------------
   about: [
-  "I hold an M.S. in Computational Data Science from the University of California, Riverside, building on an applied background at the intersection of Electrical Engineering, machine learning, and quantitative analytics. I currently work as a Staff Research Associate at UCR's Centre for Laboratory AI Research (CLAIR), on a joint research collaboration with Cornell University.",
+  "I hold an M.S. in Computational Data Science from the University of California, Riverside, building on an applied background at the intersection of Electrical Engineering, machine learning, and quantitative analytics. I currently work as a Staff Research Associate at UCR's Centre for Liberatory AI Research (CLAIR), on a joint research collaboration with Cornell University.",
 
   "I build end-to-end systems across supervised and reinforcement learning, computer vision, multimodal retrieval, retrieval-augmented generation, and financial risk modeling, with a focus on responsible AI and real-world applications.",
 
@@ -100,9 +100,9 @@ export const PORTFOLIO = {
       logoDark: false,
       period: "01/2026 – Present",
       bullets: [
-        "Built and testing privacy-aware Instagram and YouTube data-donation workflows, improving participant guidance, validation, and extractor reliability across heterogeneous platform exports",
+        "Built and tested privacy-aware Instagram and YouTube data-donation workflows, improving participant guidance, validation, and extractor reliability across heterogeneous platform exports",
 
-        "Engineering reproducible pipelines to clean, merge, de-identify, relabel, and validate messy longitudinal research datasets",
+        "Engineering reproducible pipelines to clean, merge, de-identify, relabel, and validate raw longitudinal research datasets",
 
         "Aligning survey observations with intervention timelines to enable longitudinal analysis of behavioral and digital-platform outcomes",
       ],
